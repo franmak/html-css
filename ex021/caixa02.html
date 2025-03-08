@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: right;
+      }
+      header > h1 {
+        text-align: center;
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+      }
+
+      article {
+        background-color: lightgrey;
+      }
+      article > aside {
+        background-color: rgb(129, 125, 125);
+      }
+      article > h2 {
+        padding-left: 5px;
+      }
+      p {
+        padding: 5px;
+      }
+      nav {
+        background-color: rgb(93, 93, 97);
+        padding: 5px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 5px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">Link01</a>
+        <a href="#">Link02</a>
+        <a href="#">Link03</a>
+        <a href="#">Link04</a>
+        <a href="#">Link05</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="notícias">
+        <article>
+          <h2>Notícia sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            eligendi eveniet repellendus impedit enim unde odit expedita
+            laboriosam mollitia iste possimus commodi consectetur rerum qui
+            neque consequuntur, soluta, nesciunt quas?
+          </p>
+          <aside>
+            <p>Artigo escrito por José da Silva</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>Desenvolvido pelo CursoemVídeo</footer>
+  </body>
+</html>
+<!--box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);-->

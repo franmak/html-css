@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste com JS</title>
+  </head>
+  <body>
+    <h1>Criar elemento HTML com JavaScript</h1>
+    <p>
+      <label for="idinput">Texto: </label>
+      <input type="text" name="input" id="idinput" />
+      <input type="submit" value="Enviar" />
+    </p>
+    <script>
+      const inputText = document.getElementById("idinput");
+      const texto = inputText.value;
+      console.log(texto);
+    </script>
+  </body>
+</html>
